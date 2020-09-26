@@ -1,4 +1,4 @@
-name,face_id,path,Time, cctv_address, x_axis, y_axis, reco_path
+name,face_id,path,Time, cctv_address, reco_path
 chaeyoung,df674251-dede-4204-9e31-5e9d31a56cc6,C:/Users/CNH/PycharmProjects/untitled1/images/123.jpg,2020-08-13 09:46:50
 chaeyoung,df674251-dede-4204-9e31-5e9d31a56cc6,C:/Users/CNH/PycharmProjects/untitled1/images/123.jpg,2020-08-13 09:46:51
 chaeyoung,df674251-dede-4204-9e31-5e9d31a56cc6,C:/Users/CNH/PycharmProjects/untitled1/images/123.jpg,2020-08-13 09:46:51
