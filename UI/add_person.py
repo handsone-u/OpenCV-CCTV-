@@ -9,8 +9,8 @@ from azure.cognitiveservices.vision.face.models import TrainingStatusType, Perso
 from sftp_upload import server_db
 
 s = server_db()
-KEY = '6b2bfbfff8314d90a59a73bc29094cae'
-ENDPOINT = 'https://project-face.cognitiveservices.azure.com/'
+KEY = '295503c2dff440a097ba328d6a56c950'
+ENDPOINT = 'https://nakg.cognitiveservices.azure.com/'
 
 # 프로그램을 통해 이름이랑 저장되어있는 경로를 입력받음
 # 추가버튼을 눌렀다 --> API 서버와 통신해서 face_id를 받는다. (함수호출)
