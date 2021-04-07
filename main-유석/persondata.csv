@@ -1,0 +1,7 @@
+,name,age,gender,height,race,pic,check
+0,abc,21,m,168,y,here~,True
+1,bcd,22,m,170,b,there~,False
+2,cdf,23,f,180,w,your~,True
+3,dfg,24,m,157,x,gone,True
+4,dfg,24,m,157,x,gone,True
+5,sad,22,f,ds,w,/Users/handsone/Desktop/projectPy/tmp.py,True

@@ -1,0 +1,21 @@
+import cv2
+import os
+from azure.cognitiveservices.vision.face import FaceClient
+from msrest.authentication import CognitiveServicesCredentials
+from azure.cognitiveservices.vision.face.models import TrainingStatusType, Person, SnapshotObjectType, OperationStatusType
+
+KEY = os.environ['FACE_SUBSCRIPTION_KEY']
+ENDPOINT = os.environ['FACE_ENDPOINT']
+face_client = FaceClient(ENDPOINT, CognitiveServicesCredentials(KEY))
+
+# 새 test_list 생성
+
+#face_client.face_list.create(face_list_id="hello",name = 'test_hello', recognition_model='recognition_03')
+directory_path = "C:/Users/CNH/Desktop/momo.jpeg"
+image_path = directory_path
+image_open = open(image_path, 'rb')
+face_client.face_list.add_face_from_stream(face_list_id='hello',image=image_open)
+
+A = face_client.face_list.get(face_list_id='hello')
+for i in range(len(A.persisted_faces)):
+    print(A.persisted_faces[i].persisted_face_id)

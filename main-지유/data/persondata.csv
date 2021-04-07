@@ -1,0 +1,7 @@
+,name,age,gender,height,race,cloth,pic,check
+0,Lee,78,m,173,y,white,/Users/handsone/Desktop/projectPy/IMG_6648.JPG,False
+1,Henry,43,m,187,b,red,/Users/handsone/Desktop/projectPy/IMG_6648.JPG,False
+2,Son,27,m,183,y,white,/Users/handsone/Desktop/projectPy/IMG_6648.JPG,True
+3,Alba,35,f,168,w,green,/Users/handsone/Desktop/projectPy/IMG_6648.JPG,True
+4,Alice,20,f,163,w,purple,/Users/handsone/Desktop/projectPy/IMG_6648.JPG,True
+5,Bob,21,m,179,b,black,/Users/handsone/Desktop/projectPy/IMG_6648.JPG,False
